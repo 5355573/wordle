@@ -9,6 +9,7 @@ function init(){
 const button = document.getElementById("guess-button");
 const valor = input.value;
 button.addEventListener("click", intentar);
+const GRID = document.getElementById("grid");
 function intentar(){
     const INTENTO = leerIntento();
     if (INTENTO === palabra ) {
