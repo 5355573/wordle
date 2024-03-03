@@ -11,7 +11,7 @@ h1{
     padding: 10px;
     font-size: 18px;
     width: 250px;
-    border: 1px solid #ccc
+    border: 1px solid #18e244
 }
 #guess-button{
     display: block;
@@ -19,7 +19,7 @@ h1{
      padding: 10px 20px;
     font-size: 18px;
     background-color: #0CBABA;
-    color: #364e6d;
+    color: #b81294;
     border: none;
     border-radius: 3px; 
 }
