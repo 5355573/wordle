@@ -1,3 +1,4 @@
+
 let intentos= 6;
 let diccionario = ['APPLE', 'loren', 'dance', 'dream']
     const palabra = diccionario[Math.floor(Math.random() * diccionario.length)];
@@ -7,6 +8,7 @@ window.addEventListener('load', init)
 function init(){
     console.log('Esto se ejecuta solo cuando se carga la pagina web')
 }
+
 const button = document.getElementById("guess-button");
 button.addEventListener("click", intentar);      //Al presionar el botón con el mouse, se llama a la función "intentar"
 function intentar(){
@@ -15,6 +17,7 @@ function intentar(){
         ERROR.style.display = "block"
         return
     }
+    
     if (INTENTO === palabra){
         ERROR.style.display = "none"
         terminar("<h1>GANASTE!😀</h1>")
